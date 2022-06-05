@@ -1,0 +1,12 @@
+#websiteContainer{
+  background:url(../images/bg2.png) top left no-repeat;
+  height: 529px;
+}
+.containerRelease{
+  width:780px;
+  margin-left:230px;
+}
+
+#footerContent {
+    background: #0B93CD;
+}

@@ -1,0 +1,10 @@
+// DB table Modifications
+
+// Date : - 05-09-2021
+ALTER TABLE `users_infomation` ADD `role_id` INT NOT NULL AFTER `user_id`;
+
+// Date : - 07-09-2021
+ALTER TABLE `patient` CHANGE `upload_of_picture` `upload_of_picture` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL;
+
+// Data :-  13-09-2021
+ALTER TABLE `users_infomation` CHANGE `gender` `gender` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT '0:male , 1:Female , 2:Others';
